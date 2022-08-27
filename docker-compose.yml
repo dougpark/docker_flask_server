@@ -5,7 +5,7 @@ services:
     image: dnp-flask
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     volumes:
       - "./:/app"
     ports:
