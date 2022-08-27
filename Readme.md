@@ -11,11 +11,6 @@ With Purple Air AQI Server as a working example
 - Docker-Compose
 - Flask
 - Python 3 docker image
-- New
-- New 2
-- New 3
-
-
 
 ## Based on
 [Article by bitcraft](https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777)
