@@ -11,6 +11,7 @@ With Purple Air AQI Server as a working example
 - Docker-Compose
 - Flask
 - Python 3 docker image
+- New
 
 
 ## Based on
