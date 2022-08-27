@@ -4287,3 +4287,65 @@ Response:{'api_version': 'V1.0.11-0.0.38', 'time_stamp': 1661313965, 'error': 'N
 2022-08-27 16:09:45,573 {'aqi': '59', 'label': 'Forest Park', 'aqiColor': '#FFFF00', 'temp': 96, 'humidity': 46, 'pressure': 990.62, 'api_error': None}
 2022-08-27 16:09:45,573 aqi_proc - data from purpleAir.
 2022-08-27 16:09:45,574 192.168.1.158 - - [27/Aug/2022 16:09:45] "POST /api/aqi HTTP/1.1" 200 -
+2022-08-27 18:38:32,032 Started
+2022-08-27 18:38:32,032 running server.py
+2022-08-27 18:38:32,069 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.24.0.2:5000
+2022-08-27 18:38:32,069 [33mPress CTRL+C to quit[0m
+2022-08-27 18:38:32,072  * Restarting with stat
+2022-08-27 18:38:32,865 Started
+2022-08-27 18:38:32,865 running server.py
+2022-08-27 18:38:32,893  * Debugger is active!
+2022-08-27 18:38:32,895  * Debugger PIN: 139-404-349
+2022-08-27 18:38:52,855 192.168.1.221 - - [27/Aug/2022 18:38:52] "GET /aqi HTTP/1.1" 200 -
+2022-08-27 18:38:52,917 192.168.1.221 - - [27/Aug/2022 18:38:52] "GET /static/style.css HTTP/1.1" 200 -
+2022-08-27 18:38:53,875 **************** starting aqi 
+2022-08-27 18:38:53,879 **************** starting sensor 
+2022-08-27 18:38:53,885 retrieved sensor_id from database: 104402
+2022-08-27 18:38:53,885 get_sensor_proc - sensor_id from db.
+2022-08-27 18:38:53,894 192.168.1.221 - - [27/Aug/2022 18:38:53] "POST /api/sensor HTTP/1.1" 200 -
+2022-08-27 18:38:53,953 https://api.purpleair.com:443 "GET /v1/sensors/104402?sensor_index=104402 HTTP/1.1" 200 3444
+2022-08-27 18:38:53,956 aqistore - New data received from PurpleAir api.
+2022-08-27 18:38:53,957 Processed data from PurpleAir api: 
+2022-08-27 18:38:53,957 {'aqi': '48', 'label': 'Forest Park', 'aqiColor': '#00FF00', 'temp': 98, 'humidity': 37, 'pressure': 988.83, 'api_error': None}
+2022-08-27 18:38:53,958 aqi_proc - data from purpleAir.
+2022-08-27 18:38:53,960 192.168.1.221 - - [27/Aug/2022 18:38:53] "POST /api/aqi HTTP/1.1" 200 -
+2022-08-27 18:39:51,490 192.168.1.221 - - [27/Aug/2022 18:39:51] "GET /aqi HTTP/1.1" 200 -
+2022-08-27 18:39:51,947 192.168.1.221 - - [27/Aug/2022 18:39:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-08-27 18:39:52,036 **************** starting aqi 
+2022-08-27 18:39:52,040 **************** starting sensor 
+2022-08-27 18:39:52,042 retrieved sensor_id from database: 104402
+2022-08-27 18:39:52,043 aqistore - New data received from PurpleAir api.
+2022-08-27 18:39:52,044 Processed data from PurpleAir api: 
+2022-08-27 18:39:52,044 get_sensor_proc - sensor_id from db.
+2022-08-27 18:39:52,045 {'aqi': '48', 'label': 'Forest Park', 'aqiColor': '#00FF00', 'temp': 98, 'humidity': 37, 'pressure': 988.83, 'api_error': None}
+2022-08-27 18:39:52,046 192.168.1.221 - - [27/Aug/2022 18:39:52] "POST /api/sensor HTTP/1.1" 200 -
+2022-08-27 18:39:52,047 aqi_proc - data from purpleAir.
+2022-08-27 18:39:52,050 192.168.1.221 - - [27/Aug/2022 18:39:52] "POST /api/aqi HTTP/1.1" 200 -
+2022-08-27 18:40:07,152 192.168.1.221 - - [27/Aug/2022 18:40:07] "GET /aqi HTTP/1.1" 200 -
+2022-08-27 18:40:07,239 192.168.1.221 - - [27/Aug/2022 18:40:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-08-27 18:40:07,673 **************** starting aqi 
+2022-08-27 18:40:07,675 **************** starting sensor 
+2022-08-27 18:40:07,677 retrieved sensor_id from database: 104402
+2022-08-27 18:40:07,680 get_sensor_proc - sensor_id from db.
+2022-08-27 18:40:07,681 192.168.1.221 - - [27/Aug/2022 18:40:07] "POST /api/sensor HTTP/1.1" 200 -
+2022-08-27 18:40:07,763 https://api.purpleair.com:443 "GET /v1/sensors/104402?sensor_index=104402 HTTP/1.1" 200 3444
+2022-08-27 18:40:07,765 aqistore - New data received from PurpleAir api.
+2022-08-27 18:40:07,765 Processed data from PurpleAir api: 
+2022-08-27 18:40:07,765 {'aqi': '48', 'label': 'Forest Park', 'aqiColor': '#00FF00', 'temp': 98, 'humidity': 37, 'pressure': 988.83, 'api_error': None}
+2022-08-27 18:40:07,766 aqi_proc - data from purpleAir.
+2022-08-27 18:40:07,766 192.168.1.221 - - [27/Aug/2022 18:40:07] "POST /api/aqi HTTP/1.1" 200 -
+2022-08-27 18:40:45,052 192.168.1.221 - - [27/Aug/2022 18:40:45] "GET /aqi HTTP/1.1" 200 -
+2022-08-27 18:40:45,139 192.168.1.221 - - [27/Aug/2022 18:40:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-08-27 18:40:45,462 **************** starting aqi 
+2022-08-27 18:40:45,465 **************** starting sensor 
+2022-08-27 18:40:45,469 retrieved sensor_id from database: 104402
+2022-08-27 18:40:45,469 aqistore - New data received from PurpleAir api.
+2022-08-27 18:40:45,470 get_sensor_proc - sensor_id from db.
+2022-08-27 18:40:45,470 Processed data from PurpleAir api: 
+2022-08-27 18:40:45,472 192.168.1.221 - - [27/Aug/2022 18:40:45] "POST /api/sensor HTTP/1.1" 200 -
+2022-08-27 18:40:45,473 {'aqi': '48', 'label': 'Forest Park', 'aqiColor': '#00FF00', 'temp': 98, 'humidity': 37, 'pressure': 988.83, 'api_error': None}
+2022-08-27 18:40:45,474 aqi_proc - data from purpleAir.
+2022-08-27 18:40:45,476 192.168.1.221 - - [27/Aug/2022 18:40:45] "POST /api/aqi HTTP/1.1" 200 -
