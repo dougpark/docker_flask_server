@@ -12,6 +12,7 @@ With Purple Air AQI Server as a working example
 - Flask
 - Python 3 docker image
 - New
+- New 2
 - New 3
 
 
